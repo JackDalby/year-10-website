@@ -5,7 +5,7 @@ body {
 }
 
 .header-banner {
-  background-image: url('chest.png');
+  background-image: url('images/chest.png');
   background-size: cover;
   background-position: center;
   width: 100%;
