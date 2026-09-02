@@ -1,40 +1,63 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <title>Jack Dalby - Portfolio Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jack Dalby - Portfolio</title>
     <link href="style.css" rel="stylesheet" type="text/css">
   </head>
   <body>
-    <div>
-      <h1>
-        <strong>Portfolio Website</strong><br>
-        <span>By Jack Dalby</span>
-      </h1>
-    </div>
-    <img src="images/madness_jellyfish.png" alt="Madness Jellyfish" width="400" height="300">
-    <p>
-      Here is all the stuff ive done so far in this current part of the year.
-    </p>
+    <header class="hero">
+      <div class="hero-content">
+        <h1>Portfolio Website</h1>
+        <p class="subtitle">By Jack Dalby</p>
+      </div>
+      <img src="images/madness_jellyfish.png" alt="Madness Jellyfish" class="hero-image">
+    </header>
 
-    <h2>Other pages</h2>
-    <ul>
-      <li>
-        <a href="Tinting.html">
-          <img src="images/tint_dragonfly.png" alt="Tinting" width="50" height="50">
-          Tinting
-        </a>
-      </li>
-      <li>
-        <a href="Colour-inversion.html">
-          <img src="images/inverted-leaves.png" alt="Colour inversion" width="50" height="50">
-          Colour Inversion
-        </a>
-      </li>
-      <li>
-        <a href="Brightness-Changing.html">
-          <img src="images/bright_cat.png" alt="Brightness changing" width="50" height="50">
-          Brightness Changing
-        </a>
-      </li>
-    </ul>
+    <main class="container">
+      <section class="intro">
+        <p>Here's all the creative work I've done so far this year. Each project showcases different techniques and effects.</p>
+      </section>
+
+      <section class="projects">
+        <h2>Featured Projects</h2>
+        <div class="project-grid">
+          <a href="Tinting.html" class="project-card">
+            <div class="project-image">
+              <img src="images/tint_dragonfly.png" alt="Tinting">
+            </div>
+            <div class="project-info">
+              <h3>Tinting</h3>
+              <p>Explore color tinting effects</p>
+            </div>
+          </a>
+
+          <a href="Colour-inversion.html" class="project-card">
+            <div class="project-image">
+              <img src="images/inverted-leaves.png" alt="Colour inversion">
+            </div>
+            <div class="project-info">
+              <h3>Colour Inversion</h3>
+              <p>Discover color inversion techniques</p>
+            </div>
+          </a>
+
+          <a href="Brightness-Changing.html" class="project-card">
+            <div class="project-image">
+              <img src="images/bright_cat.png" alt="Brightness changing">
+            </div>
+            <div class="project-info">
+              <h3>Brightness Changing</h3>
+              <p>Adjust brightness and contrast</p>
+            </div>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>&copy; 2024 Jack Dalby. All rights reserved.</p>
+    </footer>
   </body>
 </html>
