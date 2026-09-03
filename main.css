@@ -36,3 +36,7 @@ img {
   border-radius: 70px;
   margin: 40px 0;
 } 
+
+.half-width {
+  width: 49%;
+}
